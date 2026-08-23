@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+  <kcfgfile name=""/>
+  <group name="General">
+    <entry name="showSeconds" type="Bool">
+      <label>Show seconds</label>
+      <default>true</default>
+    </entry>
+    <entry name="blinkDots" type="Bool">
+      <label>Blinking dots</label>
+      <default>true</default>
+    </entry>
+    <entry name="showShadow" type="Bool">
+      <label>Show shadow</label>
+      <default>true</default>
+    </entry>
+    <entry name="flickerEffect" type="Bool">
+      <label>Flicker effect</label>
+      <default>false</default>
+    </entry>
+    <entry name="ghostSegments" type="Bool">
+      <label>Ghost segments</label>
+      <default>false</default>
+    </entry>
+    <entry name="crtScanlines" type="Bool">
+      <label>CRT scanlines</label>
+      <default>false</default>
+    </entry>
+    <entry name="minuteFlicker" type="Bool">
+      <label>Flicker on minute change</label>
+      <default>false</default>
+    </entry>
+    <entry name="clockStyle" type="String">
+      <label>Clock style</label>
+      <default>Neon Green</default>
+    </entry>
+    <entry name="customColor" type="String">
+      <label>Custom color</label>
+      <default>#00ff00</default>
+    </entry>
+    <entry name="fontStyle" type="String">
+      <label>Font style</label>
+      <default>Regular</default>
+    </entry>
+    <entry name="fontFamily" type="String">
+      <label>Font family</label>
+      <default>DSEG7</default>
+    </entry>
+    <entry name="layoutCondensed" type="Bool">
+      <label>Condensed layout</label>
+      <default>false</default>
+    </entry>
+    <entry name="use24HourFormat" type="Bool">
+      <label>Use 24-hour format</label>
+      <default>true</default>
+    </entry>
+    <entry name="showDate" type="Bool">
+      <label>Show date</label>
+      <default>false</default>
+    </entry>
+    <entry name="alarmEnabled" type="Bool">
+      <label>Alarm enabled</label>
+      <default>false</default>
+    </entry>
+    <entry name="alarmHour" type="Int">
+      <label>Alarm hour</label>
+      <default>7</default>
+    </entry>
+    <entry name="alarmMinute" type="Int">
+      <label>Alarm minute</label>
+      <default>0</default>
+    </entry>
+    <entry name="alarmAmPm" type="String">
+      <label>Alarm AM/PM</label>
+      <default>AM</default>
+    </entry>
+    <entry name="snoozeMinutes" type="Int">
+      <label>Snooze duration in minutes</label>
+      <default>5</default>
+    </entry>
+    <entry name="startupTest" type="Bool">
+      <label>Startup lamp test</label>
+      <default>false</default>
+    </entry>
+    <entry name="fontScale" type="Double">
+      <label>Font scale</label>
+      <default>1.0</default>
+    </entry>
+  </group>
+</kcfg>

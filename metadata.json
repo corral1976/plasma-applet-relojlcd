@@ -1,0 +1,22 @@
+{
+    "KPlugin": {
+        "Name": "Reloj LCD Retro",
+        "Description": "Retro 7-segment LCD digital clock with customizable themes and alarm",
+        "Icon": "/icons/icon.svg",
+        "Category": "Date and Time",
+        "License": "GPL-3.0",
+        "Id": "com.gitlab.corral1976.relojlcd",
+        "Version": "1.7.0",
+        "Website": "https://gitlab.com/corral1976/plasmoid-retro-lcd-clock",
+        "Authors": [
+            {
+                "Name": "Carlos Corral",
+                "Email": "corral1976@gmail.com",
+                "Donate": "https://ko-fi.com/retrolcdclock"
+            }
+        ],
+        "EnabledByDefault": true
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "KPackageStructure": "Plasma/Applet"
+}

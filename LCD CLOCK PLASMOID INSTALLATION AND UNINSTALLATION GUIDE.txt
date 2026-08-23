@@ -1,0 +1,65 @@
+====================================================================
+     LCD CLOCK PLASMOID INSTALLATION AND UNINSTALLATION GUIDE
+====================================================================
+
+[ INSTALLATION ]
+--------------------------------------------------------------------
+1. Open a terminal in the folder where you downloaded the .zip file.
+2. Run the following command to install it:
+
+kpackagetool6 --type Plasma/Applet --install relojLCD-plasmoid-by-carlos-corral.zip
+
+3. Restart the KDE panel to apply the changes:
+
+systemctl --user restart plasma-plasmashell
+
+4. TERMINAL NOTE: After restarting the panel, the terminal will spit
+   out a lot of KDE diagnostic logs and warnings from other widgets.
+   This is COMPLETELY NORMAL and harmless. You can safely close the
+   terminal now.
+
+5. To add the clock: Right-click on an empty space on your taskbar,
+   select "Add Widgets", search for your "LCD Clock" in the list,
+   and drag it onto the panel.
+
+
+[ UNINSTALLATION ]
+--------------------------------------------------------------------
+1. To remove the plasmoid from your system, run:
+
+kpackagetool6 --type Plasma/Applet --remove com.gitlab.corral1976.relojlcd
+
+2. (Optional) To clear any remaining configuration files in your home:
+
+rm -rf ~/.local/share/plasma/plasmoids/com.gitlab.corral1976.relojlcd
+
+3. Restart the KDE panel to refresh the environment:
+
+systemctl --user restart plasma-plasmashell
+
+
+====================================================================
+ HOW TO REMOVE A BROKEN PLASMOID ICON FROM THE PANEL
+====================================================================
+
+If after uninstalling the plasmoid you see a KDE icon in your taskbar
+showing the message "Error loading QML file: ... com.gitlab.corral1976.relojlcd
+does not exist", follow these steps to clean it up:
+
+1. RIGHT-CLICK on an empty space on your taskbar (or directly on
+   the error icon).
+
+2. From the context menu, select "Enter Edit Mode". You will notice
+   the taskbar appearance changes.
+
+3. Hover your mouse cursor directly over the icon displaying the
+   error message.
+
+4. A small floating toolbar will appear above it. Click the "Remove"
+   button (usually an "X" or a trash can icon).
+
+5. To finish, exit edit mode by clicking the "Close" button at the
+   top of the screen, or simply press the [Esc] key.
+
+Done! The KDE panel will refresh instantly and the error icon will be gone.
+====================================================================
