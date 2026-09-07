@@ -1,8 +1,8 @@
 # Retro LCD 7-Segment Clock (Plasmoid)
 
 [![License: GPL-3.0](https://img.shields.io/badge/License-GPL--3.0-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![Latest Release](https://img.shields.io/badge/release-1.7.0--green)](https://gitlab.com/corral1976/plasmoid-retro-lcd-clock/-/releases)
-[![CI](https://img.shields.io/badge/CI-passing-brightgreen)](https://gitlab.com/corral1976/plasmoid-retro-lcd-clock/-/pipelines)
+[![Version](https://img.shields.io/badge/version-1.7.0-brightgreen)](https://gitlab.com/corral1976/plasmoid-retro-lcd-clock/-/releases)
+[![CI](https://img.shields.io/badge/CI-passing-success)](https://github.com/corral1976/plasmoid-retro-lcd-clock/actions)
 
 A digital clock widget with a retro 7-segment LCD aesthetic for your KDE Plasma 6 desktop. Minimalist design, lightweight, and with an authentic vintage touch.
 
