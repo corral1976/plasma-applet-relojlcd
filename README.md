@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/31892791/README.md)
 # Retro LCD 7-Segment Clock (Plasmoid)
 
 [![License: GPL-3.0](https://img.shields.io/badge/License-GPL--3.0-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
