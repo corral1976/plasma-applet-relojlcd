@@ -1,8 +1,8 @@
 # Retro LCD 7-Segment Clock (Plasmoid)
 
-[![License: GPL-3.0](https://img.shields.io/badge/License-GPL--3.0-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)[![build](https://img.shields.io/github/actions/workflow/status/corral1976/pulse/blank.yml?style=flat-square&label=build&labelColor=282828&color=b8bb26)](https://github.com/corral1976/pulse/actions)
 [![Latest Release](https://img.shields.io/github/v/release/corral1976/pulse)](https://github.com/corral1976/pulse/releases)
 [![stars](https://img.shields.io/github/stars/corral1976/pulse?style=flat-square&label=stars&labelColor=282828&color=d79921)](https://github.com/corral1976/pulse)
+[![License: GPL-3.0](https://img.shields.io/badge/License-GPL--3.0-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)[![build](https://img.shields.io/github/actions/workflow/status/corral1976/pulse/blank.yml?style=flat-square&label=build&labelColor=282828&color=b8bb26)](https://github.com/corral1976/pulse/actions)
 
 A digital clock widget with a retro 7-segment LCD aesthetic for your KDE Plasma 6 desktop. Minimalist design, lightweight, and with an authentic vintage touch.
 
